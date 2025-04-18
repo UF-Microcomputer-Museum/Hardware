@@ -20,4 +20,4 @@ At this stage of the project we will be making use of the **DE-10 Lite** until w
 As of now we will be testing our HDL code on a **DE-10 Lite** which requires **Quartus** in order to load our HDL code.
 
 ## For More Detailed Documentation Click the Link Below
-[Link Will Go Here]
+https://uf-microcomputer-museum.github.io/Hardware/
