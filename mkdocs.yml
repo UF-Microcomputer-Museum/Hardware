@@ -1,0 +1,8 @@
+site_name: UF Microcomputer Museum
+theme:
+  name: material
+nav:
+  - What is the Microcomputer Museum?: index.md
+  - About the NES: NES.md
+  - Hardware Required: hardware.md
+  - Installation: install.md
