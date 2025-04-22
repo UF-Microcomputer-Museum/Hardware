@@ -19,6 +19,7 @@ The goal of this project is to replicate the functionality of Nintendo's Famicom
 * ROMs need to be manually loaded into memory through the ``.mif`` files.
 * Requires the proprietary software **Quartus Prime Lite Edition**.
 * Does not have working audio as an Audio Processing Unit (APU) has not been implemented.
+* Requires proprietary code not included in the repository.
 
 ## Installation
 
