@@ -1,7 +1,8 @@
 # UF Microcomputer Museum
 
 ## Description
-The goal of this project is to replicate the functionality of Nintendo's Famicom/NES system on an FPGA using solely open source tools and methods. Our secondary goal is to then create a system that educates the user on how computers or more specifically the Famicom/NES system works. This repository holds all the requisite code in order for our hardware to run, may make a seperate repository if we decide to create seperate software (possibly an IDE to make NES ROMs) to accompany our hardware.
+
+The goal of this project is to replicate the functionality of Nintendo's Famicom/NES system on an FPGA using solely open source tools and methods. Our secondary goal is to then create a system that educates the user on how computers or, more specifically, how the Famicom/NES system works. This repository holds all the requisite code in order for our hardware to run, we may make a seperate repository if we decide to create seperate software (possibly an IDE to make NES ROMs) to accompany our hardware.
 
 ## Features
 
@@ -9,18 +10,21 @@ The goal of this project is to replicate the functionality of Nintendo's Famicom
 * A 6502 core (courtesy of NES_MiSTer repo)
 * Video Output (VGA)
 * PPU Implementation
+* GitHub Documentation Website
 
 ## Bugs
 
-* Does not have a working controller
+* Does not support controllers.
 * Does not go past menu since controller is not implemented yet.
 * ROMs need to be manually loaded into memory through the ``.mif`` files.
-* Requires proprietary software **Quartus Prime Lite Edition**
+* Requires the proprietary software **Quartus Prime Lite Edition**.
+* Does not have working audio as an Audio Processing Unit (APU) has not been implemented.
 
 ## Installation
 
 1. Install **Quartus Prime Lite Edition**
-2. Clone Repository
+2. Install **MAX 10 FPGA Device Support**, the **MAX II, Intel MAX V Device Support**, and the **Cyclone V Device Support**
+3. Clone Repository
 
 ```bash
 git clone https://github.com/UF-Microcomputer-Museum/Hardware
