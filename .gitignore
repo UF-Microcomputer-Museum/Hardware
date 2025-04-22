@@ -2,6 +2,7 @@
 site/
 db/
 incremental_db/
+devkits/
 output_files/
 *.bak
 *.qws
