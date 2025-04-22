@@ -51,3 +51,21 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name VERILOG_FILE src/chrrom/chrrom.v
+set_global_assignment -name QIP_FILE src/chrrom/chrrom.qip
+set_global_assignment -name VERILOG_FILE src/OAM/OAM.v
+set_global_assignment -name QIP_FILE src/OAM/OAM.qip
+set_global_assignment -name VERILOG_FILE src/vram/vram.v
+set_global_assignment -name QIP_FILE src/vram/vram.qip
+set_global_assignment -name VERILOG_FILE src/ram/ram.v
+set_global_assignment -name QIP_FILE src/ram/ram.qip
+set_global_assignment -name VHDL_FILE src/t65/T65_Pack.vhd
+set_global_assignment -name VHDL_FILE src/t65/T65_MCode.vhd
+set_global_assignment -name VHDL_FILE src/t65/T65_ALU.vhd
+set_global_assignment -name VHDL_FILE src/t65/T65.vhd
+set_global_assignment -name QIP_FILE src/t65/t65.qip
+set_global_assignment -name VHDL_FILE src/top_level.vhd
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
